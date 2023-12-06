@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# kill any running instances of discord
+# just in case
+killall Discord
+
 create_desktop_shortcut()
 {
 # Function too create a desktop file for discord at
