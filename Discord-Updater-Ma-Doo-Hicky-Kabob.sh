@@ -39,7 +39,7 @@ wget "https://github.com/Vencord/Installer/releases/latest/download/VencordInsta
 
 # check if the (your user folder)/.local/share/Discord/
 # folder if it exist
-if [ -d "${XDG_DATA_HOME:-$HOME/.local/share}/Discord/"]; then
+if [ -d "${XDG_DATA_HOME:-$HOME/.local/share}/Discord/" ]; then
 	# if it does, remove it and exerything in it
 	rm -rf "${XDG_DATA_HOME:-$HOME/.local/share}/Discord/"
 fi
